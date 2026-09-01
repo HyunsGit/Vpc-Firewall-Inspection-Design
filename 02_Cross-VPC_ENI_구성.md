@@ -81,7 +81,7 @@ Prod Trust 서브넷의 라우팅 테이블은 {{local}}만 유지함. 방화벽
 
 ## 적용 구성도
 
-![다이어그램](images/02_Cross-VPC_ENI_구성_img02.png)
+![다이어그램](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/02_Cross-VPC_ENI_%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC_img02.png)
 
 ## 트래픽 흐름
 
