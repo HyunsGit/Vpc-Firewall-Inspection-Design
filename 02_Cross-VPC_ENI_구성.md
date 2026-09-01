@@ -41,7 +41,7 @@ KakaoCloud는 한 VPC의 방화벽 인스턴스에 다른 VPC 서브넷에 속�
 | 구분 | 위치 |
 |---|---|
 | ENI(보조 trust 포트)의 네트워크 소속 (IP / 서브넷 / 라우팅) | Prod VPC (trust 서브넷) |
-| ENI를 처리하는 방화벽 인스턴스 | Hub VPC (GW-Games-External-FW) |
+| ENI를 처리하는 방화벽 인스턴스 | Hub VPC (External-FW) |
 
 라우팅은 ENI의 네트워크 소속만 판단함
 
