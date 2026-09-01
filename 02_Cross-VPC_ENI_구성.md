@@ -51,7 +51,7 @@ KakaoCloud는 한 VPC의 방화벽 인스턴스에 다른 VPC 서브넷에 속�
 
 ## 시도 구성
 
-![다이어그램](images/02_Cross-VPC_ENI_구성_img01.png)
+![다이어그램](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/02_Cross-VPC_ENI_%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC_img01.png)
 
 Hub VPC의 방화벽(GW-Games-External-FW)에 보조 trust 포트(Secondary Trust ENI)를 추가하고, 이 ENI를 Prod VPC의 trust 서브넷에 배치함. 이후 Prod App/DB 서브넷의 more-specific 경로 target을 해당 ENI로 지정함.
 
