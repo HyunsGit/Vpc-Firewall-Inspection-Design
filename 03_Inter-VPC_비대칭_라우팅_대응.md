@@ -90,7 +90,7 @@ port4 -- 10.228.237.244 -> 10.228.249.189: icmp echo reply # 비대칭시
 
 ## 시도구성도
 
-![다이어그램](images/03_Inter-VPC_비대칭_라우팅_대응_img01.png)
+![다이어그램](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/03_Inter-VPC_%E1%84%87%E1%85%B5%E1%84%83%E1%85%A2%E1%84%8E%E1%85%B5%E1%86%BC_%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC_%E1%84%83%E1%85%A2%E1%84%8B%E1%85%B3%E1%86%BC_img01.png)
 
 ## 조치 (필수)
 
