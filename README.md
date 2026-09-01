@@ -1,4 +1,4 @@
-# 방화벽 고도화 프로젝트 — Intra-VPC 트래픽 검사
+# 방화벽 고도화 — Intra-VPC 트래픽 검사
 
 KakaoCloud 환경에서 **Prod VPC 내부 서브넷 간 East-West 트래픽**(Intra-VPC)에 대한 방화벽 검사를 적용하기 위한 아키텍처 설계 및 구현 문서입니다.
 
