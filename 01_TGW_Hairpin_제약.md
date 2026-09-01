@@ -42,7 +42,7 @@ North-South 및 Inter-VPC 트래픽은 VPC 경계를 넘기 때문에 출발지 
 
 ## 시도 구성: TGW Hairpin
 
-[![[다이어그램](images/01_TGW_Hairpin_제약_img01.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img01.png)]
+![[다이어그램](images/01_TGW_Hairpin_제약_img01.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img01.png)
 
 Intra-VPC 트래픽을 Hub 방화벽으로 검사하기 위해, Prod 내부 트래픽을 일단 TGW로 내보낸 뒤 검사 후 다시 Prod로 되돌리는 hairpin 경로 구성을 시도함. 이를 위해 App 서브넷 라우팅 테이블에 DB 대역을 TGW로 향하게 하는 more-specific 경로를 추가하려 함.
 
@@ -58,7 +58,7 @@ Intra-VPC 트래픽을 Hub 방화벽으로 검사하기 위해, Prod 내부 트�
 
 ## 적용 구성도
 
-[![[다이어그램](images/01_TGW_Hairpin_제약_img04.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img04.png)]
+![[다이어그램](images/01_TGW_Hairpin_제약_img04.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img04.png)
 
 ## 제약 사항
 
