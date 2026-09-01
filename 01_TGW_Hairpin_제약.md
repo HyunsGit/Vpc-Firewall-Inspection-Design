@@ -58,7 +58,7 @@ Intra-VPC 트래픽을 Hub 방화벽으로 검사하기 위해, Prod 내부 트�
 
 ## 적용 구성도
 
-![다이어그램](images/01_TGW_Hairpin_제약_img04.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img04.png)
+[![다이어그램](images/01_TGW_Hairpin_제약_img04.png)](https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/images/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8_img04.png)
 
 ## 제약 사항
 
