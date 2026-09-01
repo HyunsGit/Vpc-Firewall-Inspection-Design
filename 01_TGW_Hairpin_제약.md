@@ -82,10 +82,6 @@ only 'Instance' can be set as the target type.
 
 ```
 
-![](images/01_TGW_Hairpin_제약_img02.png)
-
-![](images/01_TGW_Hairpin_제약_img03.png)
-
 ## 결론
 
 KakaoCloud에서 Intra-VPC 목적지 경로의 허용 target은 해당 VPC 내부의 Instance(ENI)로 한정됨.
