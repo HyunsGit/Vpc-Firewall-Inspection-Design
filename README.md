@@ -6,7 +6,7 @@ KakaoCloud 환경에서 **Prod VPC 내부 서브넷 간 East-West 트래픽**(In
 
 | # | 문서 | 요약 |
 |---|---|---|
-| 1 | [TGW Hairpin 제약](01_TGW_Hairpin_제약.md) | Intra-VPC 트래픽을 TGW로 우회하는 방식이 KakaoCloud 라우팅 제약으로 불가능함을 확인 |
+| 1 | [TGW Hairpin 제약]((https://github.com/HyunsGit/vpc-firewall-inspection-design/blob/main/01_TGW_Hairpin_%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A3%E1%86%A8.md)) | Intra-VPC 트래픽을 TGW로 우회하는 방식이 KakaoCloud 라우팅 제약으로 불가능함을 확인 |
 | 2 | [Cross-VPC ENI 구성](./02_Cross-VPC_ENI_구성.md) | Hub VPC 방화벽의 보조 trust ENI를 Prod VPC에 배치하여 Intra-VPC 검사를 실현한 해법 |
 | 3 | [Inter-VPC 비대칭 라우팅 대응](./03_Inter-VPC_비대칭_라우팅_대응.md) | Cross-VPC ENI 도입 후 발생한 Inter-VPC 비대칭 라우팅 문제의 원인 분석 및 조치 |
 
