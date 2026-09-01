@@ -97,6 +97,6 @@ firewall-upgrade/
 ## 관련 환경
 
 - **클라우드**: KakaoCloud
-- **방화벽**: FortiGate (GW-Games-External-FW, Hub VPC)
+- **방화벽**: FortiGate (External-FW, Hub VPC)
 - **VPC 구조**: Hub VPC (방화벽) + Prod VPC (App/DB) + Mgt VPC
 - **네트워크 연결**: TGW(Transit Gateway) 중심 Hub-and-Spoke
