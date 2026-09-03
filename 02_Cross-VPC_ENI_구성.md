@@ -119,8 +119,6 @@ one-arm 구조
 
 ## 설정 체크리스트
 
-확인 필요
-
 필수 설정 항목
 
 보조 trust ENI의 source/destination check 비활성화 — ENI가 자신에게 향하지 않는 transit 트래픽을 forwarding하려면 필수. 미설정 시 방화벽이 통과 트래픽을 drop함.
