@@ -15,7 +15,7 @@ KakaoCloud 환경에서 **Prod VPC 내부 서브넷 간 East-West 트래픽**(In
 ## 배경 및 목표
 
 ### 목표
-Prod VPC 내부 서브넷 간 트래픽(App `10.228.249.0/23` ↔ DB `10.228.251.0/25`)에 대해 Hub VPC 방화벽(`GW-Games-External-FW`)을 통한 **중앙 집중형 검사(Centralized Inspection)** 적용.
+Prod VPC 내부 서브넷 간 트래픽(App `10.228.249.0/23` ↔ DB `10.228.251.0/25`)에 대해 Hub VPC 방화벽(`External-FW`)을 통한 **중앙 집중형 검사(Centralized Inspection)** 적용.
 
 ### 설계 원칙
 - 방화벽 인스턴스·정책·라이선스를 **Hub VPC 단일 지점**에서 운영
