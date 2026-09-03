@@ -92,4 +92,4 @@ Intra-VPC 트래픽을 방화벽으로 검사하려면, 방화벽의 인터페�
 
 관련 문서
 
-Instance target 확보를 위한 구현 방식은 Intra-VPC 트래픽 검사 - Cross-VPC ENI 구성 참조.
+Instance target 확보를 위한 구현 방식은 [Intra-VPC 트래픽 검사](https://github.com/HyunsGit/Vpc-Firewall-Inspection-Design/blob/main/02_Cross-VPC_ENI_%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC.md) - Cross-VPC ENI 구성 참조.
